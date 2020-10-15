@@ -1,0 +1,543 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	 background-color: #565656;
+	}
+
+
+p{font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+h1{font-family: 'Roboto', sans-serif;
+	color:#000;
+	font-size: 30px;
+	color: #000;
+
+}
+h5{
+	font-family: 'Roboto', sans-serif;
+	color:#ffffff;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h4{ position: absolute;
+	font-family: 'Staatliches', cursive;
+	color: #ffffff;;
+	font-size: 160px;
+		margin-top: 6%;
+	float: right;
+	margin-left: 2%
+
+}
+
+h6{
+	font-family: 'Staatliches', cursive;
+	float: left;
+	margin-top: 17%;
+	margin-left: 3%;
+	font-size: 30px;
+
+
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	color:#000;
+	font-size: 180px;
+
+	
+}
+h3{ font-family: 'Roboto', sans-serif;
+	color: #000;;
+	font-size: 140px;
+
+}
+
+a{font-family: 'Roboto', sans-serif; 
+	color:#fff;}
+p{
+	color: #ffffff
+}
+
+#cabecera{
+	width: 100%;
+	height: 70px;
+	background-color: #565656;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+
+#logo{
+ 
+ width: 210px;
+ height: 90px;
+
+}
+	
+	#nav{
+	background-color:#565656;
+	float: right;
+	
+	width: 100%;
+	height:40px;
+
+	;
+}
+
+	#nav li {
+ display: inline;
+ width: 100%;
+ }
+
+
+	#nav li a {
+ 	font-family: 'Roboto', sans-serif;
+	color: white;
+ 	font-size: 19px;
+ 	text-decoration: none;
+ 	float: right;
+ 	margin-bottom: 0;
+	display: block;
+  	padding: 8px;
+  	background-color: #565656;
+ }
+
+
+	#cuerpo{
+	width: 100%;
+	height: 640px;
+    background-color: #ffed86 ;
+   
+ 	}
+ 		#cuerpoo{
+	width: 100%;
+	height: 677px;
+    background-color: #ffed86 ;
+   
+ 	}
+
+.imagen {
+
+           height: 300px;
+           width: 35%;
+           float:left;
+           background-color: white;
+           margin-left: 5%;
+           margin-top: 1%;
+           box-shadow: 10px 5px 5px black;
+          }
+          
+ .imagen2 { 
+
+          width: 35%;
+          height: 300px;
+          float: right;
+          margin-right: 5%;
+          margin-top: 1%;
+          box-shadow: 10px 5px 5px black;
+          }
+
+.3trio { width: 70%;
+	    height: 300px;}
+
+.uno	{ width: 25%;
+          height: 250px;
+          float: left;
+      margin-left: 5%;
+ margin-top:3%;
+box-shadow: 10px 5px 5px black;}
+
+.tres { width: 25%;
+          height: 250px;
+          float: right;
+      margin-right: 5%;
+  margin-top:3%;
+box-shadow: 10px 5px 5px black;}
+
+.dos { width: 25%;
+          height: 250px;
+          float: center;
+        margin-left: 8%;
+         margin-top:3%;
+         box-shadow: 10px 5px 5px black;;}
+
+    
+    .texto-encima{
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    text-align: left;
+	}     
+
+    .lista{
+    top: 60%;
+    left: 20px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    }
+
+    .texto{
+    position: absolute;
+    top: 39%;
+    left: 13%;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    text-align justify;
+    text-shadow: 10px 5px 5px black;
+	}     
+	
+	 .textoo{
+    position: absolute;
+    top: 39%;
+    right: 15%;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    text-align justify;
+    text-shadow: 10px 5px 5px black;
+	} 
+
+	 .textooo{
+    position: absolute;
+    top: 86%;
+    left: 11%;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    text-align justify;
+    text-shadow: 10px 5px 5px black;
+	}    
+	.textoooo{
+    position: absolute;
+    top: 86%;
+    right:13%;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    text-align justify;
+    text-shadow: 10px 5px 5px black;
+	}    
+	.textooooo{
+    position: absolute;
+    top: 86%;
+    left: 45%;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-color: #ffffff;
+    text-align justify;
+    text-shadow: 10px 5px 5px black;
+	}    
+	
+	.centrado{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif; 
+    color: #ffffff;
+	font-size: 45px;
+	}
+	.centradoo{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif; 
+    color: #ffffff;
+	font-size: 45px;
+	}
+
+	#pie{
+	background-color: #565656; 
+	width: 100%;
+	height: 52px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;	
+	}
+
+	
+.nombre{
+	font-family: robot
+	margin-right:10px;
+    margin-top: 0;
+
+	padding: 10px;
+	background-color:#565656;
+	width: 33%;
+	height: 22px;
+}
+
+.iconos{
+	margin-left: 140px;
+	margin-bottom: 6px;
+	margin-top: 1px;
+	float: right;
+	background-color: #565656;
+	width: 14%;
+	height: 22px;
+}
+
+.mirror{
+	background-color: #565656;
+	float: center;
+	margin-left: 47%;
+	margin-bottom: 0px;
+	width:130px; 
+	height:20px;}
+
+
+.zapas {
+
+position: absolute;
+ margin-left: 5%;
+ margin-top: 1%;
+ float: left;
+
+}
+
+#tres{
+	width: 38%;
+	height: 440px;
+	float: left;
+	margin-top: 4%;
+	margin-right: 6%;
+	margin-left: 10%;
+	margin-left: 6%;
+	
+	
+}
+#cajacontacto{
+	
+	color: #fff;
+	padding: 3%;
+	width: 63%;
+	height: 113%;
+	background-color:rgba(255,255,255,0.6);
+	border-radius: 5px;
+	 box-shadow: 6px 2px 2px black;
+	}
+#nombre{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	margin-top: 1%;
+	border: none;
+  
+}
+
+#email{
+	color: #fff;
+	width: 96%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: none;
+	
+}
+
+#mensaje{
+	color: #fff;
+	width: 96%;
+	height: 200px;
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 2px;
+	border-color: #fff;
+	padding-left: 1%;
+	margin-left: 2%;
+	margin-top: 2%;
+	border: none;
+	
+}
+#boton{
+	color: rgb(0,0, 0);
+	background-color:rgba(255,255,255,0.9);
+	border-radius: 2px;
+	border-color: #000;
+	padding: 1%;
+	margin-top: 2%;
+	margin-left: 40%;
+	margin-right: 5%;
+	border: none;
+	
+
+}
+
+.imagencon {
+
+           height: 500px;
+           width: 45%;
+           float=right: 
+           background-color: white;
+           margin-right: 5%;
+           margin-top: 4%;
+           box-shadow: 6px 2px 2px black;
+          
+
+          }
+#slides { margin-left: 6%;
+	padding-top: 3%;
+
+	
+	 }
+	 
+
+#galeria{ width: 100%
+	height: 550px;
+	margin-left: 5%;
+	padding-top: 11%;
+}
+#galeriaa{ width: 40%
+	height: 400px;
+	margin-left: 5%;
+	padding-top: 1%;
+}
+
+.oferta {
+	margin-left:  21%;
+	float: center;
+margin-top: 2%;
+}
+.ofertaa {
+	margin-left:  34%;
+	float: center;
+margin-top: 1%;
+}
+#papapart{
+	width: 40%;
+	margin-left: 1%;
+background-color: blue;
+ }
+
+#consultas{
+float:;	
+ }
+
+
+ }
+.papa{
+	margin-top: 3%;
+
+float:left;	
+ margin-right: 30%;}
+
+.ro {
+font-size: 40px;
+font-color: #000;}
+.anda {
+float: right;
+margin-right: 20%;
+margin-top: 5%;}
+
+.tipo {
+	width:30%;
+	margin-top: 1%;
+float:right;}
+
+.porfa{ width:20%;}
+
+.mapa{ margin-left: 18%;}
+
+
+
+
+.slideshow-container {
+
+  width: 1000px;
+  padding-top: 2%;
+  position: relative;
+  margin: auto;
+}
+
+/ Next & previous botones /
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/ next button /
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/ hover /
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/ foto text /
+.text {
+  color: #000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+/ animation /
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/ Esto es responsive */
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+#galeriaaa{
+margin-left: 20%;
+margin-top: 10%;
+}

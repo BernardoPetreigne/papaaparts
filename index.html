@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PAPA PARTS</title>
+<link rel="stylesheet" href="css/responsiveslides.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 1200,
+        speed: 1000
+      });
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 300,
+        maxwidth: 540
+      });
+
+      // Slideshow 3
+      $("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 540
+      });
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+	<main>
+		
+<header id="cabecera">
+			<div >
+			<a href="index.html"><IMG id="logo" SRC="img/logo.png"></a>
+		</div>
+</header>
+			
+<nav id="nav">
+
+			<ul>
+ 				<li>
+ 				<a href="contacto.html">CONTACTO</a>
+ 				</li>
+ 				<li>
+ 				<a href="oferta.html">OFERTAS</a>
+				</li>
+ 				<li>
+ 				<a href="tienda.html">TIENDA</a>
+				</li>
+
+			</ul>	
+			
+</nav>
+
+	
+<section>
+<div id="cuerpo">
+
+<h4>PAPA PARTS</h4>
+<h6>Las mejores ofertas en Bocas, Zapatillas, Ojos y Brazos </h6>
+<img class= "logooo"src="img/logoo.png">
+
+<div class="slideshow-container">
+
+        <div class="mySlides fade">
+
+          <img src="img/1.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="img/2.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="img/3.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+            <script src="Script.js" ></script>
+
+
+   
+
+
+
+
+
+
+</div>
+</section>
+		
+<footer id="pie">
+			<div class="iconos">
+			<a href=""><IMG SRC="img/i.png"></a>
+			<a href=""><IMG SRC="img/f.png">
+			<a href=""><IMG SRC="img/t.png">
+			</div>
+			<div class="mirror">
+			<h5>PAPAPARTS@GMAIL.COM</h5>
+			</div>
+			<div class="nombre" >
+		    <a href="index1.html">BERNARDO PETREIGNE SICA</a>
+			</div>
+</footer>	
+	
+	
+	
+	</main>
+	
+	</body>
+</html>
